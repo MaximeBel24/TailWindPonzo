@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,
+    initial-scale=1.0"
+    />
+    <link href="./output.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/33a775bcdb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="flex h-screen flex-col">
+      <header class="flex items-center border-b-2 border-black px-4 py-2">
+        <i class="fa-solid fa-sack-dollar"></i>
+        <h2 class="ml-2 text-xl font-bold">Ponzo</h2>
+      </header>
+      <div class="flex flex-auto bg-[url(./assets/images/cryptobg.jpeg)] bg-cover">
+        <div class="flex h-[800px] max-w-[1000px] flex-auto border-2 border-black bg-white">
+          <div class="flex-auto p-12">
+            <h1 class="mb-4 text-2xl font-medium">Parlons de votre épargne</h1>
+            <h3 class="mb-4 text-slate-700">Nous doublons votre investissement chaque année, et ce, sans aucun risque.</h3>
+            <form action="" class="grid grid-cols-2 gap-6">
+              <div class="flex flex-col gap-y-1">
+                <label class="text-sm font-bold" for="firstname">Prénom</label>
+                <input class="rounded" type="text" id="firstname">
+              </div>
+              <div class="flex flex-col gap-y-1">
+                <label class="text-sm font-bold" for="name">Nom</label>
+                <input class="rounded" type="text" id="name">
+              </div>
+              <div class="flex flex-col gap-y-1">
+                <label class="text-sm font-bold" for="email">Email</label>
+                <input class="rounded" type="email" id="email">
+              </div>
+              <div class="flex flex-col gap-y-1">
+                <label class="text-sm font-bold" for="tel">Téléphone</label>
+                <input class="rounded" type="tel" id="tel">
+              </div>
+              <div class="col-span-2 flex flex-col gap-y-1">
+                <label class="mb-4 text-sm font-bold">Estimation de votre capital</label>
+                <label for="25"><input class="mr-2 text-black" type="radio" name="capital" id="25">moins de 25000€</label>
+                <label for="25-50"><input class="mr-2 text-black" type="radio" name="capital" id="25-50">entre 25000€ et 50000€</label>
+                <label for="50"><input class="mr-2 text-black" type="radio" name="capital" id="50">plus de 50000€</label>
+              </div>
+              <div class="col-span-2 flex flex-col gap-y-1">
+                <label class="text-sm font-bold" for="message">Message</label>
+                <textarea cols="30" class="rounded" rows="5" id="message"></textarea>
+              </div>
+              <button class="col-span-2 rounded bg-blue-500 text-center font-medium text-white shadow-xl transition-colors hover:bg-blue-600 active:bg-blue-700">
+                Confiez-nous votre argent !
+              </button>
+              <p class="col-span-2 text-xs">En soumettant ce formulaire, vous acceptez toutes nos<a href="" class="font-bold"> conditions d'utilisations</a>.</p>
+            </form>
+          </div>
+          <div class="basis-72 bg-[url(./assets/images/bitcoin.jpeg)] bg-cover"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
