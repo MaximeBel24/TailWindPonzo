@@ -959,3 +959,57 @@ select {
     line-height: 1.75rem;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .dark\:border {
+    border-width: 1px;
+  }
+
+  .dark\:border-0 {
+    border-width: 0px;
+  }
+
+  .dark\:bg-gray-800 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+  }
+
+  .dark\:bg-gray-700 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+  }
+
+  .dark\:bg-slate-900 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+  }
+
+  .dark\:bg-\[url\] {
+    background-color: url;
+  }
+
+  .dark\:bg-\[url\(\.\/assets\)\] {
+    background-image: url(./assets);
+  }
+
+  .dark\:bg-\[url\(\.\/assets\/images\)\] {
+    background-image: url(./assets/images);
+  }
+
+  .dark\:bg-\[url\(\.\/assets\/images\/crypto\)\] {
+    background-image: url(./assets/images/crypto);
+  }
+
+  .dark\:bg-\[url\(\.\/assets\/images\/cryptobgdar\)\] {
+    background-image: url(./assets/images/cryptobgdar);
+  }
+
+  .dark\:bg-\[url\(\.\/assets\/images\/cryptobgdark\.jpeg\)\] {
+    background-image: url(./assets/images/cryptobgdark.jpeg);
+  }
+
+  .dark\:text-slate-200 {
+    --tw-text-opacity: 1;
+    color: rgb(226 232 240 / var(--tw-text-opacity));
+  }
+}
